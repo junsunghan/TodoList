@@ -43,7 +43,7 @@ function App() {
     <div className="APP">
       <Header />
       <Editor onCreate={onCreate} />
-      <List />
+      <List todos={todos} />
     </div>
   );
 }
